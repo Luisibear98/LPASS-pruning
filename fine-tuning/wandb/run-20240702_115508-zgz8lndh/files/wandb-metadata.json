@@ -1,0 +1,199 @@
+{
+    "os": "Linux-6.6.6-76060606-generic-x86_64-with-glibc2.35",
+    "python": "3.10.14",
+    "heartbeatAt": "2024-07-02T09:55:08.531418",
+    "startedAt": "2024-07-02T09:55:08.391364",
+    "docker": null,
+    "cuda": null,
+    "args": [
+        "--dataset_name",
+        "diversevul",
+        "--reduce",
+        "0",
+        "--prune_layers",
+        "15",
+        "--samples_per_class",
+        "5000",
+        "--random_pruning",
+        "0",
+        "--rank",
+        "256"
+    ],
+    "state": "running",
+    "program": "/home/oso/Documents/incibe/code/code_paper/vul_detector/submission_code/fine-tuning/gemma_finetuning.py",
+    "codePathLocal": "gemma_finetuning.py",
+    "codePath": "gemma_finetuning.py",
+    "host": "pop-os",
+    "username": "oso",
+    "executable": "/home/oso/anaconda3/envs/keras-jax/bin/python",
+    "cpu_count": 20,
+    "cpu_count_logical": 28,
+    "cpu_freq": {
+        "current": 2.3888571428571423,
+        "min": 800.0,
+        "max": 4828.571428571428
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 5.3,
+            "min": 800.0,
+            "max": 5300.0
+        },
+        {
+            "current": 5.304,
+            "min": 800.0,
+            "max": 5300.0
+        },
+        {
+            "current": 0.8,
+            "min": 800.0,
+            "max": 5300.0
+        },
+        {
+            "current": 0.8,
+            "min": 800.0,
+            "max": 5300.0
+        },
+        {
+            "current": 0.8,
+            "min": 800.0,
+            "max": 5300.0
+        },
+        {
+            "current": 0.8,
+            "min": 800.0,
+            "max": 5300.0
+        },
+        {
+            "current": 0.8,
+            "min": 800.0,
+            "max": 5300.0
+        },
+        {
+            "current": 0.8,
+            "min": 800.0,
+            "max": 5300.0
+        },
+        {
+            "current": 5.3,
+            "min": 800.0,
+            "max": 5300.0
+        },
+        {
+            "current": 0.8,
+            "min": 800.0,
+            "max": 5300.0
+        },
+        {
+            "current": 0.8,
+            "min": 800.0,
+            "max": 5300.0
+        },
+        {
+            "current": 5.3,
+            "min": 800.0,
+            "max": 5300.0
+        },
+        {
+            "current": 0.8,
+            "min": 800.0,
+            "max": 5300.0
+        },
+        {
+            "current": 0.8,
+            "min": 800.0,
+            "max": 5300.0
+        },
+        {
+            "current": 5.3,
+            "min": 800.0,
+            "max": 5300.0
+        },
+        {
+            "current": 0.8,
+            "min": 800.0,
+            "max": 5300.0
+        },
+        {
+            "current": 3.911,
+            "min": 800.0,
+            "max": 4200.0
+        },
+        {
+            "current": 3.887,
+            "min": 800.0,
+            "max": 4200.0
+        },
+        {
+            "current": 4.059,
+            "min": 800.0,
+            "max": 4200.0
+        },
+        {
+            "current": 3.9,
+            "min": 800.0,
+            "max": 4200.0
+        },
+        {
+            "current": 0.8,
+            "min": 800.0,
+            "max": 4200.0
+        },
+        {
+            "current": 3.964,
+            "min": 800.0,
+            "max": 4200.0
+        },
+        {
+            "current": 0.8,
+            "min": 800.0,
+            "max": 4200.0
+        },
+        {
+            "current": 0.8,
+            "min": 800.0,
+            "max": 4200.0
+        },
+        {
+            "current": 3.899,
+            "min": 800.0,
+            "max": 4200.0
+        },
+        {
+            "current": 3.964,
+            "min": 800.0,
+            "max": 4200.0
+        },
+        {
+            "current": 0.8,
+            "min": 800.0,
+            "max": 4200.0
+        },
+        {
+            "current": 0.8,
+            "min": 800.0,
+            "max": 4200.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 3657.5893211364746,
+            "used": 2488.9312705993652
+        }
+    },
+    "gpu": "NVIDIA GeForce RTX 4090",
+    "gpu_count": 2,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA GeForce RTX 4090",
+            "memory_total": 25757220864
+        },
+        {
+            "name": "NVIDIA GeForce RTX 4080",
+            "memory_total": 17171480576
+        }
+    ],
+    "memory": {
+        "total": 188.51334762573242
+    }
+}

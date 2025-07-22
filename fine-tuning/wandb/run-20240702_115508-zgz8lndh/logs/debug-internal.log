@@ -1,0 +1,78 @@
+2024-07-02 11:55:08,393 INFO    StreamThr :101434 [internal.py:wandb_internal():85] W&B internal server running at pid: 101434, started at: 2024-07-02 11:55:08.393514
+2024-07-02 11:55:08,395 DEBUG   HandlerThread:101434 [handler.py:handle_request():158] handle_request: status
+2024-07-02 11:55:08,396 INFO    WriterThread:101434 [datastore.py:open_for_write():87] open: /home/oso/Documents/incibe/code/code_paper/vul_detector/submission_code/fine-tuning/wandb/run-20240702_115508-zgz8lndh/run-zgz8lndh.wandb
+2024-07-02 11:55:08,396 DEBUG   SenderThread:101434 [sender.py:send():378] send: header
+2024-07-02 11:55:08,396 DEBUG   SenderThread:101434 [sender.py:send():378] send: run
+2024-07-02 11:55:08,423 INFO    SenderThread:101434 [dir_watcher.py:__init__():211] watching files in: /home/oso/Documents/incibe/code/code_paper/vul_detector/submission_code/fine-tuning/wandb/run-20240702_115508-zgz8lndh/files
+2024-07-02 11:55:08,423 INFO    SenderThread:101434 [sender.py:_start_run_threads():1123] run started: zgz8lndh with start time 1719914108.393347
+2024-07-02 11:55:08,426 DEBUG   HandlerThread:101434 [handler.py:handle_request():158] handle_request: check_version
+2024-07-02 11:55:08,426 DEBUG   SenderThread:101434 [sender.py:send_request():405] send_request: check_version
+2024-07-02 11:55:08,506 DEBUG   HandlerThread:101434 [handler.py:handle_request():158] handle_request: run_start
+2024-07-02 11:55:08,513 DEBUG   HandlerThread:101434 [system_info.py:__init__():26] System info init
+2024-07-02 11:55:08,513 DEBUG   HandlerThread:101434 [system_info.py:__init__():41] System info init done
+2024-07-02 11:55:08,513 INFO    HandlerThread:101434 [system_monitor.py:start():194] Starting system monitor
+2024-07-02 11:55:08,514 INFO    SystemMonitor:101434 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-07-02 11:55:08,514 INFO    SystemMonitor:101434 [interfaces.py:start():188] Started cpu monitoring
+2024-07-02 11:55:08,514 INFO    HandlerThread:101434 [system_monitor.py:probe():214] Collecting system info
+2024-07-02 11:55:08,515 INFO    SystemMonitor:101434 [interfaces.py:start():188] Started disk monitoring
+2024-07-02 11:55:08,515 INFO    SystemMonitor:101434 [interfaces.py:start():188] Started gpu monitoring
+2024-07-02 11:55:08,516 INFO    SystemMonitor:101434 [interfaces.py:start():188] Started memory monitoring
+2024-07-02 11:55:08,517 INFO    SystemMonitor:101434 [interfaces.py:start():188] Started network monitoring
+2024-07-02 11:55:08,531 DEBUG   HandlerThread:101434 [system_info.py:probe():150] Probing system
+2024-07-02 11:55:08,532 DEBUG   HandlerThread:101434 [gitlib.py:_init_repo():56] git repository is invalid
+2024-07-02 11:55:08,532 DEBUG   HandlerThread:101434 [system_info.py:probe():198] Probing system done
+2024-07-02 11:55:08,532 DEBUG   HandlerThread:101434 [system_monitor.py:probe():223] {'os': 'Linux-6.6.6-76060606-generic-x86_64-with-glibc2.35', 'python': '3.10.14', 'heartbeatAt': '2024-07-02T09:55:08.531418', 'startedAt': '2024-07-02T09:55:08.391364', 'docker': None, 'cuda': None, 'args': ('--dataset_name', 'diversevul', '--reduce', '0', '--prune_layers', '15', '--samples_per_class', '5000', '--random_pruning', '0', '--rank', '256'), 'state': 'running', 'program': '/home/oso/Documents/incibe/code/code_paper/vul_detector/submission_code/fine-tuning/gemma_finetuning.py', 'codePathLocal': 'gemma_finetuning.py', 'codePath': 'gemma_finetuning.py', 'host': 'pop-os', 'username': 'oso', 'executable': '/home/oso/anaconda3/envs/keras-jax/bin/python', 'cpu_count': 20, 'cpu_count_logical': 28, 'cpu_freq': {'current': 2.3888571428571423, 'min': 800.0, 'max': 4828.571428571428}, 'cpu_freq_per_core': [{'current': 5.3, 'min': 800.0, 'max': 5300.0}, {'current': 5.304, 'min': 800.0, 'max': 5300.0}, {'current': 0.8, 'min': 800.0, 'max': 5300.0}, {'current': 0.8, 'min': 800.0, 'max': 5300.0}, {'current': 0.8, 'min': 800.0, 'max': 5300.0}, {'current': 0.8, 'min': 800.0, 'max': 5300.0}, {'current': 0.8, 'min': 800.0, 'max': 5300.0}, {'current': 0.8, 'min': 800.0, 'max': 5300.0}, {'current': 5.3, 'min': 800.0, 'max': 5300.0}, {'current': 0.8, 'min': 800.0, 'max': 5300.0}, {'current': 0.8, 'min': 800.0, 'max': 5300.0}, {'current': 5.3, 'min': 800.0, 'max': 5300.0}, {'current': 0.8, 'min': 800.0, 'max': 5300.0}, {'current': 0.8, 'min': 800.0, 'max': 5300.0}, {'current': 5.3, 'min': 800.0, 'max': 5300.0}, {'current': 0.8, 'min': 800.0, 'max': 5300.0}, {'current': 3.911, 'min': 800.0, 'max': 4200.0}, {'current': 3.887, 'min': 800.0, 'max': 4200.0}, {'current': 4.059, 'min': 800.0, 'max': 4200.0}, {'current': 3.9, 'min': 800.0, 'max': 4200.0}, {'current': 0.8, 'min': 800.0, 'max': 4200.0}, {'current': 3.964, 'min': 800.0, 'max': 4200.0}, {'current': 0.8, 'min': 800.0, 'max': 4200.0}, {'current': 0.8, 'min': 800.0, 'max': 4200.0}, {'current': 3.899, 'min': 800.0, 'max': 4200.0}, {'current': 3.964, 'min': 800.0, 'max': 4200.0}, {'current': 0.8, 'min': 800.0, 'max': 4200.0}, {'current': 0.8, 'min': 800.0, 'max': 4200.0}], 'disk': {'/': {'total': 3657.5893211364746, 'used': 2488.9312705993652}}, 'gpu': 'NVIDIA GeForce RTX 4090', 'gpu_count': 2, 'gpu_devices': [{'name': 'NVIDIA GeForce RTX 4090', 'memory_total': 25757220864}, {'name': 'NVIDIA GeForce RTX 4080', 'memory_total': 17171480576}], 'memory': {'total': 188.51334762573242}}
+2024-07-02 11:55:08,532 INFO    HandlerThread:101434 [system_monitor.py:probe():224] Finished collecting system info
+2024-07-02 11:55:08,532 INFO    HandlerThread:101434 [system_monitor.py:probe():227] Publishing system info
+2024-07-02 11:55:08,532 DEBUG   HandlerThread:101434 [system_info.py:_save_conda():207] Saving list of conda packages installed into the current environment
+2024-07-02 11:55:09,424 INFO    Thread-12 :101434 [dir_watcher.py:_on_file_created():271] file/dir created: /home/oso/Documents/incibe/code/code_paper/vul_detector/submission_code/fine-tuning/wandb/run-20240702_115508-zgz8lndh/files/conda-environment.yaml
+2024-07-02 11:55:12,221 DEBUG   HandlerThread:101434 [system_info.py:_save_conda():222] Saving conda packages done
+2024-07-02 11:55:12,221 DEBUG   HandlerThread:101434 [system_info.py:_save_code():44] Saving code
+2024-07-02 11:55:12,221 DEBUG   HandlerThread:101434 [system_info.py:_save_code():65] Saving code done
+2024-07-02 11:55:12,221 INFO    HandlerThread:101434 [system_monitor.py:probe():229] Finished publishing system info
+2024-07-02 11:55:12,230 DEBUG   SenderThread:101434 [sender.py:send():378] send: files
+2024-07-02 11:55:12,230 INFO    SenderThread:101434 [sender.py:_save_file():1389] saving file wandb-metadata.json with policy now
+2024-07-02 11:55:12,230 INFO    SenderThread:101434 [sender.py:_save_file():1389] saving file code/gemma_finetuning.py with policy now
+2024-07-02 11:55:12,255 INFO    wandb-upload_0:101434 [upload_job.py:push():130] Uploaded file /tmp/tmpqbsb2vdrwandb/skzdkysh-wandb-metadata.json
+2024-07-02 11:55:12,256 INFO    wandb-upload_1:101434 [upload_job.py:push():130] Uploaded file /tmp/tmpqbsb2vdrwandb/p0u5lyb1-code/gemma_finetuning.py
+2024-07-02 11:55:12,306 DEBUG   HandlerThread:101434 [handler.py:handle_request():158] handle_request: python_packages
+2024-07-02 11:55:12,307 DEBUG   SenderThread:101434 [sender.py:send_request():405] send_request: python_packages
+2024-07-02 11:55:12,307 DEBUG   HandlerThread:101434 [handler.py:handle_request():158] handle_request: stop_status
+2024-07-02 11:55:12,307 DEBUG   SenderThread:101434 [sender.py:send():378] send: telemetry
+2024-07-02 11:55:12,308 DEBUG   SenderThread:101434 [sender.py:send_request():405] send_request: stop_status
+2024-07-02 11:55:12,419 DEBUG   SenderThread:101434 [sender.py:send():378] send: config
+2024-07-02 11:55:12,420 DEBUG   SenderThread:101434 [sender.py:send():378] send: metric
+2024-07-02 11:55:12,420 DEBUG   SenderThread:101434 [sender.py:send():378] send: telemetry
+2024-07-02 11:55:12,420 DEBUG   SenderThread:101434 [sender.py:send():378] send: telemetry
+2024-07-02 11:55:12,420 DEBUG   SenderThread:101434 [sender.py:send():378] send: metric
+2024-07-02 11:55:12,420 WARNING SenderThread:101434 [sender.py:send_metric():1340] Seen metric with glob (shouldn't happen)
+2024-07-02 11:55:12,420 DEBUG   SenderThread:101434 [sender.py:send():378] send: telemetry
+2024-07-02 11:55:12,424 INFO    Thread-12 :101434 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/oso/Documents/incibe/code/code_paper/vul_detector/submission_code/fine-tuning/wandb/run-20240702_115508-zgz8lndh/files/conda-environment.yaml
+2024-07-02 11:55:12,424 INFO    Thread-12 :101434 [dir_watcher.py:_on_file_created():271] file/dir created: /home/oso/Documents/incibe/code/code_paper/vul_detector/submission_code/fine-tuning/wandb/run-20240702_115508-zgz8lndh/files/requirements.txt
+2024-07-02 11:55:12,424 INFO    Thread-12 :101434 [dir_watcher.py:_on_file_created():271] file/dir created: /home/oso/Documents/incibe/code/code_paper/vul_detector/submission_code/fine-tuning/wandb/run-20240702_115508-zgz8lndh/files/code/gemma_finetuning.py
+2024-07-02 11:55:12,424 INFO    Thread-12 :101434 [dir_watcher.py:_on_file_created():271] file/dir created: /home/oso/Documents/incibe/code/code_paper/vul_detector/submission_code/fine-tuning/wandb/run-20240702_115508-zgz8lndh/files/output.log
+2024-07-02 11:55:12,424 INFO    Thread-12 :101434 [dir_watcher.py:_on_file_created():271] file/dir created: /home/oso/Documents/incibe/code/code_paper/vul_detector/submission_code/fine-tuning/wandb/run-20240702_115508-zgz8lndh/files/wandb-metadata.json
+2024-07-02 11:55:12,424 INFO    Thread-12 :101434 [dir_watcher.py:_on_file_created():271] file/dir created: /home/oso/Documents/incibe/code/code_paper/vul_detector/submission_code/fine-tuning/wandb/run-20240702_115508-zgz8lndh/files/code
+2024-07-02 11:55:13,421 DEBUG   HandlerThread:101434 [handler.py:handle_request():158] handle_request: status_report
+2024-07-02 11:55:15,425 INFO    Thread-12 :101434 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/oso/Documents/incibe/code/code_paper/vul_detector/submission_code/fine-tuning/wandb/run-20240702_115508-zgz8lndh/files/output.log
+2024-07-02 11:55:18,421 DEBUG   HandlerThread:101434 [handler.py:handle_request():158] handle_request: status_report
+2024-07-02 11:55:23,422 DEBUG   HandlerThread:101434 [handler.py:handle_request():158] handle_request: status_report
+2024-07-02 11:55:27,307 DEBUG   HandlerThread:101434 [handler.py:handle_request():158] handle_request: stop_status
+2024-07-02 11:55:27,308 DEBUG   SenderThread:101434 [sender.py:send_request():405] send_request: stop_status
+2024-07-02 11:55:29,414 DEBUG   HandlerThread:101434 [handler.py:handle_request():158] handle_request: status_report
+2024-07-02 11:55:34,415 DEBUG   HandlerThread:101434 [handler.py:handle_request():158] handle_request: status_report
+2024-07-02 11:55:39,417 DEBUG   HandlerThread:101434 [handler.py:handle_request():158] handle_request: status_report
+2024-07-02 11:55:40,434 INFO    Thread-12 :101434 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/oso/Documents/incibe/code/code_paper/vul_detector/submission_code/fine-tuning/wandb/run-20240702_115508-zgz8lndh/files/config.yaml
+2024-07-02 11:55:44,447 DEBUG   HandlerThread:101434 [handler.py:handle_request():158] handle_request: status_report
+2024-07-02 11:55:49,448 DEBUG   HandlerThread:101434 [handler.py:handle_request():158] handle_request: status_report
+2024-07-02 11:55:54,448 DEBUG   HandlerThread:101434 [handler.py:handle_request():158] handle_request: status_report
+2024-07-02 11:55:59,449 DEBUG   HandlerThread:101434 [handler.py:handle_request():158] handle_request: status_report
+2024-07-02 11:56:04,450 DEBUG   HandlerThread:101434 [handler.py:handle_request():158] handle_request: status_report
+2024-07-02 11:56:08,517 DEBUG   SystemMonitor:101434 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-07-02 11:56:08,518 DEBUG   SenderThread:101434 [sender.py:send():378] send: stats
+2024-07-02 11:56:08,528 INFO    memory    :101434 [interfaces.py:monitor():138] Process proc.memory.rssMB has exited.
+2024-07-02 11:56:08,529 DEBUG   SystemMonitor:101434 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-07-02 11:56:08,529 DEBUG   SystemMonitor:101434 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-07-02 11:56:08,529 DEBUG   SenderThread:101434 [sender.py:send():378] send: stats
+2024-07-02 11:56:09,475 INFO    MainThread:101434 [internal.py:handle_exit():75] Internal process exited
+2024-07-02 11:56:09,530 DEBUG   HandlerThread:101434 [handler.py:handle_request():158] handle_request: status_report
